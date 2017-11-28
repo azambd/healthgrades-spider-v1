@@ -9,6 +9,12 @@ import scrapy
 
 
 class HealthgradesSpiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+
+	name = scrapy.Field()
+	gender = scrapy.Field()
+	speciality = scrapy.Field()
+	street_address = scrapy.Field()
+	city = scrapy.Field()
+	state = scrapy.Field()
+	zip_code = scrapy.Field()
+	link = scrapy.Field() 
