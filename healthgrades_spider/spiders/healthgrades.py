@@ -8,7 +8,7 @@ from ..items import HealthgradesSpiderItem
 from time import sleep
 import random
 
-sleep(random.randrange(0,3))
+sleep(random.randrange(1,3))
 
 class HealthgradesSpider(CrawlSpider):
     name = 'healthgrades'
