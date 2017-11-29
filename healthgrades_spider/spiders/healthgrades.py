@@ -4,6 +4,12 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from ..items import HealthgradesSpiderItem
 
+#Header For Sleep Timer
+from time import sleep
+import random
+
+sleep(random.randrange(0,3))
+
 class HealthgradesSpider(CrawlSpider):
     name = 'healthgrades'
     allowed_domains = ['healthgrades.com']
